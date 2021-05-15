@@ -24,4 +24,4 @@ Subject: %s
     server.sendmail(mail_from, mail_to, mail_message)
     server.close()
     return "Hello World"
-app.run(host='0.0.0.0', port=5000)
+app.run(port=5000)
