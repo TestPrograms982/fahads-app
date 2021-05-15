@@ -23,5 +23,6 @@ Subject: %s
     server.login(gmail_user, gmail_password)
     server.sendmail(mail_from, mail_to, mail_message)
     server.close()
-    return "Hello World"
-app.run(port=5000)
+    return "Hello World!"
+if __name__ = "__main__":
+    app.run(port=5000)
